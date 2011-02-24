@@ -500,6 +500,9 @@ static int cibyl_get_key (void)
       else if (code >= -8) /* Handle through the table */
         return keycode_table_walk_special[-code];
     }
+  if (code == 10)
+	  s9_input = DONE;
+
 
   if (input_mode == 0 || input_mode == 1)
     {
