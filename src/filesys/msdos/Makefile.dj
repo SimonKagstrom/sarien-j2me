@@ -1,0 +1,19 @@
+#
+# Makefile for DJGPP v2
+#
+# $Id: Makefile.dj,v 1.2 2001/08/04 15:03:27 darkfiber Exp $
+#
+
+include $(TOPDIR)/Rules.dj
+
+OBJS = fileglob.o path.o
+
+all: fileglob.a
+
+fileglob.a: $(OBJS)
+	ar rsv fileglob.a $(OBJS)
+
+clean:
+	@if exist *.a del *.a
+	@if exist *.o del *.o
+	@if exist *.bak del *.bak

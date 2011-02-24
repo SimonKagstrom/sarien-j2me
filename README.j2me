@@ -1,0 +1,8 @@
+This is the J2ME/Cibyl branch of Sarien. The main branch has been
+merged into ScummVM, http://scummvm.org, so I have not bothered with
+keeping this branch compatible with main. The webpage for Sarien/J2ME
+is http://spel.bth.se/index.php/Sarien_for_Cibyl
+
+To build Sarien/J2ME, setup Cibyl and run make.
+
+// Simon Kågström, simon.kagstrom@gmail.com

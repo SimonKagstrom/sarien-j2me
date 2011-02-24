@@ -1,0 +1,17 @@
+# $Id: Rules.dj,v 1.8 2003/08/31 16:05:05 cmatsuoka Exp $
+
+include $(TOPDIR)/Version
+
+CFLAGS = -I$(TOPDIR)/src/include -O2 -DVERSION='"$(VERSION)"' -DHAVE_ALLEGRO -Wall -D__MSDOS__
+
+%.o : %.asm
+	$(NSM) -f coff $< -o$@
+
+%.o : %.cc
+	$(CC) $(DEFS) $(EXTRAFLAGS) $(CFLAGS) -c -o$@ $<
+
+%.o : %.c
+	$(CC) $(DEFS) $(EXTRAFLAGS) $(CFLAGS) -c -o$@ $<
+
+%.o : %.s
+	$(CC) $(DEFS) $(EXTRAFLAGS) $(CFLAGS) -c -o$@ $<

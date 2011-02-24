@@ -1,0 +1,5 @@
+$Id: README.djgpp,v 1.1 2001/07/01 04:40:44 cmatsuoka Exp $
+
+To build sarien using DJGPP, run make -f Makefile.dj from the toplevel
+source directory.
+

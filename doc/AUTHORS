@@ -1,0 +1,134 @@
+
+- Stuart George <dfiber@mega-tokyo.com>
+  * Main code
+  * DOS port
+
+- Lance Ewing <lance.e@ihug.co.nz>
+  * Picture resource decoding
+
+- Claudio Matsuoka <claudio@helllabs.org>
+  * Main code hacking
+  * X11, SDL, BeOS port
+  * Win32 port hacking
+
+- Felipe Rosinha (In memoriam)
+  * Main code hacking
+  * Win32 port
+  * Several bugfixes
+
+- XoXus <xoxus@usa.net>
+  * Linux SVGAlib driver
+
+- Igor Nesterov <nest@rtsnet.ru>
+  * Win32 port hacking
+
+- Ari Heikkinen <aheikin@probe1.pspt.fi>
+  * IRIX port
+
+- Joshua Neal <>
+  * Line drawing routine
+
+- Sad Rejeb <sadrejeb@hotmail.com>
+  * X11 palette fixes
+
+- Robert Bihlmeyer <robbe@orcus.priv.at>
+  * Fullscreen SDL patch 
+
+- Ryan Gordon <icculus@clutteredmind.org>
+  * SDL driver maintainer
+  * Command line parsing fixes
+  * Portability hacks
+  * Win32 driver mouse support
+
+- Magnus Kristiansen <makris@online.no>
+  * Control line fixes
+
+- Jeremy Penner <jeremy@astra.mb.ca>
+  * QNX Photon port
+  * MacOS Carbon sound driver
+
+- Peter Hawkins <>
+  * Savegame fixes
+
+- Magnus Kristiansen <>
+  * Status line display fixes
+
+- Justin Kerk <almightyjustin@users.sourceforge.net>
+  * Cygwin build fixes
+  * Extensive testing
+
+- Matt Hargett <matt@use.net>
+  * VC++ build fixes
+  * Memory usage profiling
+  * Scale2x patch for win32
+
+- Ian Hanschen <ian@stardock.com>
+  * Win32 fixes and clean-ups
+
+- Ziv Barber <ZivB@siliquent.com>
+  * Scancode fixes
+  * Inventory selection fixes
+
+- Richard Houle <richard.houle@sandtechnology.com>
+  * MacOS X Cocoa port
+
+- Paul Hill <paul@lagernet.clara.co.uk>
+  * Amiga port
+
+- Vasyl Tsvirkunov <vasyl@pacbell.net>
+  * PocketPC port
+  * Many bugfixes in the main code
+  * Savegame implementation
+
+- Thomas Akesson <tapilot@home.se>
+  * Word parser bug fixes
+  * New find_word algorithm
+  * RLE encoded sprites
+  * New flood fill algorithm
+
+- Benjamin Zale <junior_aepi@users.sourceforge.net>
+  * MacOS X fixes
+  * MacOS X SDL port
+
+- Brian Peek <brian@ganksoft.com>
+  * Dreamcast port
+
+- Michael Montague <mikem@treyarch.com>
+  * DirectX 8 driver
+  * Win32 fixes
+
+- Shaun Jackman <sjackman@shaw.ca>
+  * interpreter console hacks
+
+- Marcos Maruo <marcos_maruo@yahoo.com>
+  * keyboard input bugfixes
+
+
+Special thanks to:
+
+- Paul Lunga <paul123@freenet.tlh.fl.us>
+  * IIgs/Mac/Tandy sound samples
+  * IIgs/Mac/Tandy AGI resources
+
+- Ian Schmidt <irsman@iag.net>
+  * IIgs sound documentation
+
+- Nat Budin <nat@budin.net>
+  * Object repositioning information
+
+- Nick Sonneveld <sonneveld@dingoblue.net.au>
+  * AGI internals consultant
+  * Author of NAGI
+
+- Peter Makholm <peter@makholm.net>
+  * Debian package maintainer
+
+- Helen Zommer <helen@cc.huji.ac.il>
+  * Author of the QT AGI Studio
+
+- Anders Baden Nielsen <freakonaleash@mac.com>
+  * MacOS Classic help & support
+
+- Paul David Doherty <pdd@if-legends.org>
+  * Game IDs from AGInfo database
+

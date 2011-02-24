@@ -1,0 +1,19 @@
+Source: sarien
+Section: games
+Priority: extra
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends: debhelper (>= 5), libsdl1.2-dev (>= 1.2.2-3.1), docbook-to-man, autotools-dev
+Standards-Version: 3.7.2
+
+Package: sarien
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: An interpreter for AGI resources
+ Sarien decodes and plays games written for the Sierra
+ On-Line Adventure Game Interpreter (AGI) system, such as Leisure Suit
+ Larry in the Land of the Lounge Lizards, Space Quest I and II, and
+ King's Quest I to IV. Currently AGI versions 2 and 3 are recognized;
+ support for older AGI v1 games is not available.
+ .
+ You need the files from the original games.
+

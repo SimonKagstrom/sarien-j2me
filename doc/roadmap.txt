@@ -1,0 +1,66 @@
+$Id: roadmap.txt,v 1.14 2003/07/13 14:27:32 cmatsuoka Exp $
+
+
+Playability:
+                 |     0.7    |     0.8    |    0.9     |     1.0    |
+ ----------------|------------|------------|------------|------------|
+    Sierra Demos |  Accurate  |  Accurate  |  Accurate  |  Accurate  |
+  Sierra v2/AGDS | Finishable |  Accurate  |  Accurate  |  Accurate  |
+       Sierra v3 |  Playable  | Finishable |  Accurate  |  Accurate  |
+        Homemade |            |  Playable  | Finishable |  Accurate  |
+ ----------------|------------|------------|------------|------------|
+
+Extra features:
+                 |     0.7    |     0.8    |    0.9     |     1.0    |
+ ----------------|------------|------------|------------|------------|
+         Console |   stable   |   stable   |   stable   |   stable   |
+     Hi-res mode |experimental|   stable   |   stable   |   stable   |
+   Mouse support |            |experimental|   stable   |   stable   |
+      IIgs sound |            |            |experimental|   stable   |
+ ----------------|------------|------------|------------|------------|
+
+
+0.7.0:
+
+* Demopacks 1-4 100% accurate					OK
+* Main Sierra v2 games finishable (LSL1, KQ1-2, PQ1, SQ1-2)	OK
+* AGDS game finishable						OK
+* Sierra v3 games playable					OK
+* Fix quit/restart crashes					OK
+* Fix hi-res mode problems					OK
+* Amiga port							OK
+
+0.8.0:
+
+* Sierra v3 games finishable					OK
+* Sierra v2 games accurate					OK
+* Multi-slot savegames						OK
+* Fix quit/restart problems					OK
+* Major homemade games playable					OK
+
+0.9.0:
+
+* Macintosh port						90%
+* IIgs sound emulation						20%
+* Sierra v3 games accurate					80%
+* Mouse support							95%
+* Fix input prompt problems					95%
+* Major homemade games finishable				70%
+* unk commands implemented					90%
+
+1.0:
+
+* All games 100% accurate					50%
+* Complete documentation					30%
+
+1.1+:
+
+* Re-organize support functions layers and APIs:
+  sound, graphics, input, filesystem, timer, AGI
+  resources. Reuse as much as possible in the
+  AGI utilities to make them portable.				 0%
+
+2.0:
+
+* Dynamic palette, higher-res mode, FreeSCI GFX, etc.		 0%
+
